@@ -12,8 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: myrunner
-
+    runs-on: self-hosted
     strategy:
       matrix:
         node-version: [22.x]
