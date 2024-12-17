@@ -9,7 +9,7 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "My name ${{ vars.MY_NAME }} "
+      - run: echo My name  ${{ vars.MY_NAME }} 
       - run: echo "My secrets name  ${{ secrets.MY_SECRET_NAME }}  by GitHub!"
-      - run: echo "My env =  $DAY_OF_WEEK  by GitHub!"
+      - run: echo "My env = by GitHub!  $DAY_OF_WEEK  "
      
